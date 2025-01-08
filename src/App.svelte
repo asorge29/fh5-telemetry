@@ -1,11 +1,13 @@
 <script lang="ts">
-  import Reciever from "./lib/reciever.svelte";
+  import Display from "./components/display.svelte";
 </script>
 
 <main>
-  <Reciever/>
+  <Display />
 </main>
 
 <style>
-  
+  main {
+  width: 100%;
+  }
 </style>
